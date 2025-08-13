@@ -12,6 +12,7 @@
     "publish:win": "vite build --emptyOutDir && bun ./src/scripts/prepare.ts && bun build --compile --minify ./src/scripts/entry.ts --target=bun-windows-x64-modern --outfile mocaController"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001734",
     "esbuild-plugin-polyfill-node": "^0.3.0",
     "firebase": "^11.8.1",
     "react": "^18.3.1",
